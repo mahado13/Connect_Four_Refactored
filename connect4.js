@@ -5,6 +5,9 @@
  * board fills (tie)
  */
 
+
+
+
 const WIDTH = 7;
 const HEIGHT = 6;
 
@@ -24,7 +27,7 @@ function makeBoard() {
 /** makeHtmlBoard: make HTML table and row of column tops. */
 
 function makeHtmlBoard() {
-  const board = document.getElementById('board');
+ const board = document.getElementById('board');
 
   // make column tops (clickable area for adding a piece to that column)
   const top = document.createElement('tr');
